@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+}
+
+.main {
+  padding: 20px 0;
+}
+
+.footer {
+  background-color: #e0e0e0;
+  padding: 10px 0;
+}
+
+/* Стили для поисковой строки */
+.search-bar {
+  margin-top: 20px;
+}
+
+.search-bar input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+}
+
+/* Стили для слайдера/факта дня */
+.slider {
+  margin-top: 30px;
+}
+
+.fact_day img {
+  max-height: 300px;
+  width: auto;
+  margin: 0 auto;
+}
+
+/* Стили для страницы результатов поиска */
+#animal-name {
+  margin-bottom: 20px;
+}
+
+#animal-description {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+/* Placeholder image */
+.fact_day img[src="placeholder.jpg"] {
+  background-color: #ccc; /* Серый фон для placeholder */
+  width: 100%;
+  height: auto;
+}
