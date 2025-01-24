@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center;     /* Выравнивание по вертикали */
+    min-height: 100vh;      /* Чтобы форма была по центру, даже если контента мало */
+    margin: 0;              /* Убираем отступы по умолчанию */
+  }
+
+form {
+    width: 100%; /* Опционально: задайте желаемую ширину формы */
+}
+
+h1{
+    color:green;
+    text-align: center;
+}
+
+
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+.container img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.back {
+    margin-left: 30px;
+    margin-right: 30px;
+}
